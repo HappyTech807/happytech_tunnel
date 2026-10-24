@@ -87,10 +87,10 @@ jobs:
           }
           Write-Host "TCP connectivity successful!"
 
-      - name: Set up MATLAB R2024b
+      - name: Set up MATLAB R2026a
         uses: matlab-actions/setup-matlab@v2
         with:
-          release: R2025b
+          release: R2026a
           products: 
             Simulink
             Simscape
